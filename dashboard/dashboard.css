@@ -1,0 +1,60 @@
+body{
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+#ui{
+    padding:30px;
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom right, #708ae9, #d5b4e1
+    );
+    border-radius: 20px;
+    height: 400px;
+}
+
+#ui input{
+    border-radius: 10px;
+    border: 0px;
+    width: 300px;
+    margin-top: 20px;
+}
+#ui a{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 0px;
+    margin-top:60px;
+    height: 60px;
+    font-size: 25px;
+}
+#ui a:hover{
+    background-image: linear-gradient(to bottom right,#5877df, #b275c0);
+}
+#buttons{
+    text-align: center;
+    margin-top: 20px
+}
+button{
+    margin-right: 30px;
+    border-radius: 100px; 
+}
+#des{
+    padding: 30px;
+    margin-top: 80px;
+}
+#des textarea{
+    margin-top: 40px;
+    border-radius: 30px;
+    color:black;
+}
+#des textarea::placeholder{
+    font-size: 20px;
+}
+#des img{
+    border-radius: 15px;
+    height:80px;
+    margin:5px;
+    margin-left: 10px;
+}
